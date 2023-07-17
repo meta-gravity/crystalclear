@@ -1,0 +1,21 @@
+{
+  "name": "crystalclear",
+  "displayName": "CrystalClear",
+  "description": "CrystalClear: A luminous and transparent theme for Visual Studio Code, offering clarity and focus with soothing hues and crisp contrasts. Let your code shine like a sparkling crystal, guiding you to success effortlessly",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CrystalClear",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CrystalClear-color-theme.json"
+      }
+    ]
+  }
+}
